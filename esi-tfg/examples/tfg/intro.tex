@@ -1,0 +1,53 @@
+\chapter{Introducción}
+\label{chap:intro}
+
+\drop{L}{} a imagen médica ha supuesto un gran avance para el diagnóstico médico, tanto en la eficacia, como en la mejora de la calidad de las imágenes. A día de hoy, en los centros clínicos, ya sean hospitales o pequeñas clínicas, existen infinidad de dispositivos de adquisición de imágenes para el tratamiento de las personas.
+
+Una de las ventajas de la adquisición de imágenes clínicas es la posibilidad de almacenar información referente a las exploraciones médicas, como por ejemplo, imformación de filiación del paciente, características de la propia imagen, información sobre el equipo y la técnica de adquisición empleada, etc; como información adjunta a las imágenes médicas obtenidas para la elaboración del diagnóstico médico. Toda esta información se encuentra codificada de acuerdo a las especificaciones del estándar \acs{DICOM}\cite{1}
+
+\textbf{\acx{DICOM}} es un estándar de imagen médica desarrollado por el \acx{ACR} y la \acx{NEMA}. Proporciona todas las especificaciones necesarias para la transmisión, manejo, almacenamiento e impresión de las imagenes médicas, por lo tanto, cubre todos los aspectos funcionales de imagen médica digital, por lo que se considera como un conjunto de normas, en lugar de una única norma.
+
+Aunque \acs{DICOM} es un estándar reconocido mundialmente en las TIC del ámbito sanitario, existen otros estándares de imagen médica, por ello surge la iniciativa \textbf{\acx{IHE}} \cite{2}. \acs{IHE} es una organización internacional sin ánimo de lucro impulsada conjuntamente por profesionales de la sanidad y empresas proveedoras, donde su objetivo es mejorar la comunicación entre los sistemas de información que se utilizan en la atención al paciente, logrando una interoperabilidad efectiva y un flujo de trabajo eficiente.
+
+En los hospitales de hoy en día, se genera un gran volumen de imágenes clínicas, esto se debe a la actividad asistencial de pacientes. Por ejemplo, viendo las estadísticas de 2015 del Hospital puerta del sur \footnote{www.hmpuertadelsur.com/el-hospital/estadisticas-resultados-medicos} se hicieron 44.920 estudios radiológicos. En estos estudios se pueden generar entre 1 y 256 imágenes clínicas, dependiendo del tipo de radiografía, por lo tanto si suponemos 20 imágenes de media por estudio, el resultado es 898.400 imágenes generadas en el departamento de Radiología de un hospital en un único año. Todos estos estudios, como hemos dicho anteriormente, no sólo incluyen la imagen, también incluye información adicional, por consecuencia todos estos datos clínicos hay que gestionarlos de forma correcta, y una solución para este problema es la implantación de un sistema \acs{PACS}.
+
+Un \textbf{\acx{PACS}} es un sistema de almacenamiento que permite gestionar las imágenes de un hospital a través de la interconexión de diferentes equipos médicos, bases de datos, estaciones de visualización y dispositivos de impresión, conforme a las especificaciones de \acs{DICOM} y las recomendaciones de \acs{IHE}. Estos sistemas son complejos, que como ya se ha indicado trabajan con un gran volumen de datos, son críticos en su explotacion, pues, de su funcionamiento depende la asistencia sanitaria diaria, por lo tanto, se despliegan en clusters de ordenadores para poder conseguir alta disponibilidad y alto rendimiento. Suelen disponer de sistemas RAID, o cabinas de disco más avanzadas, para gestionar la persistencia, por lo tanto, todo esto supone un mantenimiento por empleados especializados en los sistemas \acs{PACS}.
+
+Aunque la mayoría de hopitales disponen de sistemas \acs{PACS}, existen servicios clínicos "pequeños"\footnote{Pequeños por el volumen de imagen médica genereda}, que por la gran cantidad de recursos que cuesta implantar un sistema \acs{PACS}, tanto económicos como humanos, no pueden implantarlo.
+
+Por lo tanto, la solución que se plantea en este \acs{TFG} es el desarrollo de una herramienta en menor escala, en comparación a un \acs{PACS}, que sea fácil y rápida de instalar, bajo el estándar \acs{DICOM} y las recomendaciones \acs{IHE}. A través de esta herramienta los servicios clínicos que no puedan permitirse un \acs{PACS} al completo, tendrán una solución acorde con sus necesidades y recursos económicos y humanos.
+
+Finalmente mencionar, que aunque a lo largo del documento aparacerán fragmentos de código correspondientes al proyecto, estos fragmentos no mostrarán todo el código  desarrollado, sino que se limitarán a mostrar aquello que es más relevante y aporta una mayor información para el tema que se está tratando. No obstante, se podrá consultar en GitHub\footnote{github.com} el repositorio público con el código al completo para su visualización.
+
+
+\section{Contexto del proyecto}
+Este \acs{TFG}, aunque se podrá utilizar como una herramienta independiente, deberá poder integrarse con el prodcuto Software de Madrija Consultoria S.L.\footnote{www.madrija.com} \textbf{Enigma Connect}, como otro módulo más dentro de la suite.
+
+
+\section{Estructura del documento}
+
+Este documento se compone de 6 capítulos y X anexos descritos a continuación:
+
+\begin{definitionlist}
+\item[Capítulo \ref{chap:intro}: \nameref{chap:intro}] Describe cual es el problema que se aborda en este \acs{TFG} y se propone una solución.
+\item[Capítulo \ref{chap:objetivos}: \nameref{chap:objetivos}] Expone el objetivo principal de este \acs{TFG} y los objetivos parciales en los que se divide. Además, se describe el entorno del proyecto.
+\item[Capítulo \ref{chap:antecedentes}: \nameref{chap:antecedentes}] Expone el estado actual de la cuestión. Se destacan los aspectos que han servido de fundamentos teóricos  para  poder  desarrollar  este  TFG.
+\item[Capítulo \ref{chap:metodo}: \nameref{chap:metodo}] Se  presenta  y  justifica  la 
+metodología utilizada para el desarrollo del proyecto, así como el marco tecnológico del 
+trabajo.
+\item[Capítulo \ref{chap:resultados}: \nameref{chap:resultados}] Se  muestran  los  resultados  que  se  han  ido  obteniendo  con  la aplicación  de  la  metodología  de  trabajo.
+\item[Capítulo \ref{chap:conclusiones}: \nameref{chap:conclusiones}] Se  revisa  y analiza  la consecución  de  los  objetivos  propuestos  en  el  Capítulo  2  una  vez  finalizada  la implementación  de  la solución. Además, se  presenta  una  conclusión  final  del trabajo realizado,  se  presentan las  líneas  de  trabajo  futuras,  y  por  último se da  una  opinión personal del autor sobre el trabajo realizado.
+\end{definitionlist}
+
+Tras  los  capítulos  mencionados, las Referencias utilizadas para  la  realización  de este TFG.
+
+Para finalizar, se presentan los Anexos a los que se hace referencia en este documento
+y que aportan un valor añadido al proyecto, obtienen información relevante del desarrollo 
+y no se incluyen en los distintos capítulos para no hacer difícil su lectura.
+
+% Local Variables:
+%  coding: utf-8
+%  mode: latex
+%  mode: flyspell
+%  ispell-local-dictionary: "castellano8"
+% End:

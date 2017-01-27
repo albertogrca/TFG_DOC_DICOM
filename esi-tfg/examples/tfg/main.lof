@@ -1,0 +1,25 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Relaci\IeC {\'o}n entre par\IeC {\'a}metros para evaluar la calidad de la imagen m\IeC {\'e}dica}}{9}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces T\IeC {\'e}cnicas y modalidades de adquisici\IeC {\'o}n de imagen en Radiodiagn\IeC {\'o}stico}}{13}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Del mundo real al modelo de informaci\IeC {\'o}n DICOM}}{16}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Modelo ER DCIOM - Representaci\IeC {\'o}n de la iformaci\IeC {\'o}n cl\IeC {\'\i }nica}}{17}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Definici\IeC {\'o}n b\IeC {\'a}sica de un \acs {IOD}}}{18}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Fragmento de los datos contenidos en la cabecera \acs {DICOM} de una imagen. Imagen perteneciente al corte axial de un TAC de cabeza (HGUCR)}}{20}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Integraci\IeC {\'o}n del protocolo de comunicaci\IeC {\'o}n DICOM}}{22}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Modelo ER DICOM: Especificaci\IeC {\'o}n de una clase de servicio}}{24}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Estructura de un mensaje DICOM. Figura extra\IeC {\'\i }da de \cite {16}.}}{25}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Verificaci\IeC {\'o}n SOP}}{26}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Storage SOP}}{26}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Query SOP}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Modality Worklist SOP}}{27}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces C-Get SOP}}{27}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces C-Move SOP}}{29}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Comunicaci\IeC {\'o}n PDU entre dos AEs}}{31}{figure.3.16}
+\addvspace {10\p@ }

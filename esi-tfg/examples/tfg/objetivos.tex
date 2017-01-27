@@ -1,0 +1,37 @@
+\chapter{Objetivos}
+\label{chap:objetivos}
+
+\noindent
+
+En este capítulo se establecerá el principal objetivo que se pretende alcanzar mediante este proyecto, desglosando este a su vez en objetivos específicos que será necesario alcanzar para su consecución.
+
+\section{Objetivo general}
+
+El objetivo principal que se pretende lograr en este \acs{TFG} es el desarrollo de una herramienta en menor escala, en comparación a un \acs{PACS}, que sea fácil y rápida de instalar, bajo el estándar \acs{DICOM} y las recomendaciones \acs{IHE}. Esta herramienta estará, principalmente, orientada para los servicios clínicos que no tengan recursos suficientes para poder implantar un sistema \acs{PACS} al completo o servicios que no tengan un volumen tan grande que no necesiten un sistema \acs{PACS}.
+
+\section{Objetivos específicos}
+
+El objetivo discutido anteriormente puede ser desglosado en los siguientes objetivos específicos.
+
+\subsection{Representación de datos}
+Establecer un \textbf{formato común para la representación de los datos} de filiación del paciente. El formato determinado debe ser conforme a las especificaciones del estándar \acs{DICOM} y las necesidades del servicio clínico. En este caso la suit Enigma Connect actuará como servicio clínico.
+
+\subsection{Tratamiento de los estudios}
+Desarrollar una herramienta, de forma que pueda ser incorporada al HIS o como es en este caso a una aplicación como una libreria, junto con el resto de servicios que gestiona. La herramienta debe incluir las siguientes \textbf{funcionalidades}:
+\begin{definitionlist}
+\item \textbf{Extraer bajo petición} del usuario los datos de los estudios realizados a un paciente, en función de diferentes parámetros de búsqueda.
+\item \textbf{Extraer de forma automática} los datos de cada una de las modalidades de adquisición y que éstos puedan ser almacenados para su posterior revisión.
+\item \textbf{Guardar imágenes y datos de los estudios} en una base de datos para su posterior revisión. Estos datos estarán relacionados con el paciente correspondiente.
+\end{definitionlist}
+\subsection{Estándares y tecnologías libres}
+Utilizar \textbf{estándares y tecnologías libres} en el desarrollo de esta herramienta, con el fin de que pueda ser reutilizada.
+\subsection{Arquitectura}
+Diseñar una \textbf{arquitectura} basada en el uso de patrones de diseño y que pueda ser extensible.
+
+
+% Local Variables:
+%  coding: utf-8
+%  mode: latex
+%  mode: flyspell
+%  ispell-local-dictionary: "castellano8"
+% End:

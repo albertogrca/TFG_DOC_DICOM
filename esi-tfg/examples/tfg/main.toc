@@ -1,0 +1,43 @@
+\select@language {spanish}
+\contentsline {chapter}{Resumen}{\es@scroman {v}}{chapter*.1}
+\contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.2}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.3}
+\contentsline {chapter}{\'{I}ndice general}{\es@scroman {xiii}}{chapter*.4}
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xv}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xvii}}{chapter*.6}
+\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xix}}{chapter*.7}
+\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxi}}{chapter*.8}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contexto del proyecto}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Estructura del documento}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Objetivos}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Objetivo general}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Objetivos espec\IeC {\'\i }ficos}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Representaci\IeC {\'o}n de datos}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Tratamiento de los estudios}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Est\IeC {\'a}ndares y tecnolog\IeC {\'\i }as libres}{6}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Arquitectura}{6}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}Antecedentes}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Imagen m\IeC {\'e}dica}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Origen e importancia de la imagen m\IeC {\'e}dica}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Definici\IeC {\'o}n y caracter\IeC {\'\i }sticas fundamentales}{8}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Modalidades de adquisici\IeC {\'o}n}{9}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}T\IeC {\'e}cnicas de adquisici\IeC {\'o}n de im\IeC {\'a}genes}{10}{subsubsection.3.1.3.1}
+\contentsline {section}{\numberline {3.2}El est\IeC {\'a}ndar \acs {DICOM}}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Or\IeC {\'\i }genes del est\IeC {\'a}ndar}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Definici\IeC {\'o}n del est\IeC {\'a}ndar}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}La informaci\IeC {\'o}n cl\IeC {\'\i }nica en \acs {DICOM}}{15}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Del modelo del mundo real al modelo de informaci\IeC {\'o}n \acs {DICOM}}{15}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\numberline {3.2.3.2}Definici\IeC {\'o}n de objeto de informaci\IeC {\'o}n (IOD)}{16}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.3}Estructura de los datos en \acs {DICOM}}{17}{subsubsection.3.2.3.3}
+\contentsline {subsubsection}{\numberline {3.2.3.4}Codificaci\IeC {\'o}n de los datos a objetos \acs {DICOM}}{19}{subsubsection.3.2.3.4}
+\contentsline {subsubsection}{\numberline {3.2.3.5}Clasificaci\IeC {\'o}n de los elementos de datos}{20}{subsubsection.3.2.3.5}
+\contentsline {subsubsection}{\numberline {3.2.3.6}Identificadores \IeC {\'u}nicos (UID)}{21}{subsubsection.3.2.3.6}
+\contentsline {section}{\numberline {3.3}La comunicaci\IeC {\'o}n en DICOM}{22}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introducci\IeC {\'o}n}{22}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}El protocolo de comunicaci\IeC {\'o}n DICOM}{22}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Entidades de aplicaci\IeC {\'o}n DICOM y sus roles}{22}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Clases SOP y protocolo DIMSE}{23}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Protocolo \acs {DICOM} Upper Layer}{29}{subsubsection.3.3.1.4}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{35}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{37}{appendix*.9}
